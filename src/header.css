@@ -1,0 +1,11 @@
+.logo{
+    border:1px solid red;
+
+    width: 40%;
+    height:500px;
+    background: url("./images/telefon1.png");
+    background-repeat: no-repeat;
+position: relative;
+top:29;
+left:288px;
+}

@@ -1,0 +1,45 @@
+.karoBox{
+    width: 100%;
+    display:flex;
+    justify-content: flex-end;
+}
+.karo{
+    margin-top: 280px;
+    width: 400px;
+    height:500px;
+    background: url("./images/img_4012-kopia.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: inline-block;
+   
+}
+.tytulKaro{
+    text-align: right;
+}
+.tekstKaro{
+     margin-top: 280px;
+     width: 600px;
+     height:500px;
+     display: inline-block;
+     text-align: left;
+}
+.lineInKaro{
+      
+      background-color: black;
+      width: 80%;
+      height: 2px;
+      position:relative;
+      right: -199px;
+}
+div.contaktToKaro{
+    display:flex; 
+    justify-content:space-around;
+    
+}
+.tel{
+    display: inline-block;
+
+}
+.mail{
+    display: inline-block;
+}
