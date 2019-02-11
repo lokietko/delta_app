@@ -37,9 +37,38 @@ div.contaktToKaro{
     
 }
 .tel{
+    
     display: inline-block;
-
 }
 .mail{
+
     display: inline-block;
+}
+i{
+    padding-right: 66px;
+    font-size: 4em;
+    color: grey;
+}
+i:hover{
+color: rgb(245, 245, 129);
+}
+.school{
+    margin-bottom: 50px;
+}
+.bozenaBox{
+    height: 200px;
+}
+.lineInBozena{
+ background-color: black;
+ width: 70%;
+ height: 2px;
+ position:relative;
+ right: 50px;
+}
+.bozenaText{
+    width: 600px;
+    height:500px;
+}
+.bozenaTytul{
+    padding: 0;
 }

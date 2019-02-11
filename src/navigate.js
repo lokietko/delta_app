@@ -3,14 +3,15 @@ import './navigate.css';
 
 
 const Navigate = () => {
+
     return ( 
    <>
     <div  className="line"></div>
     <ul>
-    <li>O nas</li>
-    <li>Cennik</li>
-    <li>Oferta</li>
-    <li>Kontakt</li>
+    <li key="Onas">O nas</li>
+    <li key="Cennik">Cennik</li>
+    <li key="Oferta">Oferta</li>
+    <li key="Kontakt">Kontakt</li>
     </ul>
     </>
     );
