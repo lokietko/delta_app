@@ -44,7 +44,7 @@ div.contaktToKaro{
 
     display: inline-block;
 }
-i{
+.fas {
     padding-right: 66px;
     font-size: 4em;
     color: grey;
@@ -56,6 +56,7 @@ color: rgb(245, 245, 129);
     margin-bottom: 50px;
 }
 .bozenaBox{
+    
     height: 200px;
 }
 .lineInBozena{

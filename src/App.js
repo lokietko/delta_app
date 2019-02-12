@@ -4,6 +4,7 @@ import './App.css';
 import Navigate from './navigate';
 import Entry from './Entry';
 import People from './People';
+import Ofert from "./Ofert";
 
 class App extends Component {
 
@@ -22,16 +23,14 @@ class App extends Component {
 <div className="entry"></div> 
  <div className = "container">
 <Entry/>
-  
-
-
-<People/>
-
-
-
+  <People/>
+</div>
+<div className="secondYellowTringle"></div>
+<div className='secondGreyTringle'></div>
+<div className = "container">
+<Ofert/>
 </div>
 
-    
      </>
     );
   }

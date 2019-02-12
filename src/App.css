@@ -14,7 +14,6 @@ height: 0;
   border-top:512px solid #f6f2ce;
   border-right: 421px solid transparent;
  display: inline-block;
-  
 }
 
 .headerGreyTringle{
@@ -44,4 +43,23 @@ z-index: 3;
   height:100%;
   margin-left: auto;
   margin-right: auto;
+}
+.secondYellowTringle {
+  width: 0;
+  height: 0;
+  border-top: 512px solid grey;
+  border-right: 421px solid transparent;
+  display: inline-block;
+   position: absolute;
+  transform: translateY(-253px);
+  z-index:-2;
+}
+.secondGreyTringle {
+  width: 0;
+  height: 0;
+  border-top: 888px solid #f6f2ce;
+  border-left: 1536px solid transparent;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
 }

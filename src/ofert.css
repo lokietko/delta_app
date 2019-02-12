@@ -1,0 +1,39 @@
+.forWho{
+    padding-top: 50px;
+    display:flex;
+    font-size: 2em;
+    justify-content:space-around;
+    flex-wrap:wrap;
+}
+.flexicon{
+    text-align:center ;
+    width:33%;
+    height:200px;
+}
+.ofertTitle{
+  margin: 0;
+  padding: 0;
+ }
+.indoIcons{
+   
+    text-align: center;
+    visibility: visible;
+    position: relative;
+    z-index: 3;
+    bottom:50%; 
+}
+.flexicon>i.fas{ 
+    padding-right: 0px;
+}
+
+
+.driver{
+display:block;
+list-style-type:disc;
+text-align:left;
+font-size: 1rem;
+position: relative;
+bottom: 200px;
+left: 200px;
+visibility: hidden;
+}

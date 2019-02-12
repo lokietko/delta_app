@@ -11,7 +11,7 @@ const People = () => {
 <p className="school">Ukończyła studia psychologiczne na Uniwersytecie Wrocławskim. Od początku studiów pasjonowała się tematem psychologii pozytywnej, której zasady stara się wdrażać w codziennym życiu, zarówno w pracy, jak i w obszarze prywatnym. W kręgu jej zainteresowań znajdują się także zagadnienia związane z inteligencją emocjonalną i pozytywnym wpływem jej rozwoju na różne aspekty funkcjonowania. 
 Posiada doświadczenie w obszarze poradnictwa psychologicznego, jak również w obszarze rekrutacji i szeroko rozumianego HR.
 <br/>Prowadzi konsultacje i poradnictwo w nurcie Podejścia Skoncentrowanego na Rozwiązaniach, oraz Porozumienia bez Przemocy.</p>
-<div className="contaktToKaro"><i class="fas fa-phone"></i><i class="fas fa-envelope"></i> </div>
+<div className="contaktToKaro"><i className="fas fa-phone"></i><i className="fas fa-envelope"></i> </div>
 <div className="contaktToKaro"><div className="tel">tel 667 307 123</div><div className="mail">karolina.swiderska.delta@outlook.com</div></div>
 </div><div className="karo"></div></div>
 
