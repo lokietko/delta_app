@@ -4,19 +4,26 @@ import "./kontakt.css";
      constructor(props) {
          super(props);
          this.state = {  }
-     }
-handleAnimation=()=>{
+     } 
+     
 
 
 
-    
-}
 
 
 
      render() { 
-         return ( <div>{this.handleAnimation()}</div> );
+         return ( <div>
+         
+         <div className="tringlesSides" data-speed="2"></div>
+         
+         
+         
+         
+         
+         
+         </div> );
      }
- }
+    }
   
  export default Kontakt;

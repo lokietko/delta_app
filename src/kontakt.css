@@ -1,2 +1,6 @@
 
 
+.tringlesSides{
+    border:3px solid red ;
+    transform: rotate(45deg);
+}
