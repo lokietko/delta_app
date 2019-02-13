@@ -5,6 +5,8 @@ import Navigate from './navigate';
 import Entry from './Entry';
 import People from './People';
 import Ofert from "./Ofert";
+import Prize from "./prize";
+import Kontakt from './kontakt';
 
 class App extends Component {
 
@@ -29,6 +31,8 @@ class App extends Component {
 <div className='secondGreyTringle'></div>
 <div className = "container">
 <Ofert/>
+<Prize/>
+<Kontakt/>
 </div>
 
      </>

@@ -50,22 +50,18 @@ handleIconMouseOver=(e)=>{
         <div className='flexicon'><i className="fas fa-file-medical" onMouseOver={this.handleIconMouseOver} onMouseLeave={this.handleIconMouseLeave}></i><p className="indoIcons">badania okresowe i kontrolne</p></div>
     </div>
 <h2>BADANIA LEKARSKIE Z ZAKRESU MEDYCYNY PRACY:</h2>
+<div  className="line"></div>
 <p>badania lekarskie z zakresu medycyny pracy na wymienione wyżej stanowiska.</p>
 <h2>KONSULTACJE I PORADY (TAKŻE DROGĄ TELEFONICZNĄ I INTERNETOWĄ)</h2>
-<p>– konsultacje dla uczniów, studentów i absolwentów, którzy chcą odnaleźć właściwą sobie drogę w dorosłym życiu,
-
-– konsultacje motywujące, skoncentrowane na poszukiwaniu i wzmacnianiu swoich mocnych stron (coaching),
-
-– poradnictwo w przypadkach nagłych,
-
-– konsultacje w sytuacjach kryzysowych, stanach depresyjnych, problemach z odnalezieniem swojego miejsca w świecie,
-
-– konsultacje skoncentrowane na odnajdywaniu mocnych stron w sytuacjach zawodowych (poszukiwanie pracy, przygotowanie do rozmów kwalifikacyjnych).</p>
-
-
-
-
-    </> );
+<div  className="line"></div>
+<ul className="consultation">
+<li>konsultacje dla uczniów, studentów i absolwentów, którzy chcą odnaleźć właściwą sobie drogę w dorosłym życiu</li>
+<li> konsultacje motywujące, skoncentrowane na poszukiwaniu i wzmacnianiu swoich mocnych stron (coaching),</li>
+<li>poradnictwo w przypadkach nagłych,</li>
+<li> konsultacje w sytuacjach kryzysowych, stanach depresyjnych, problemach z odnalezieniem swojego miejsca w świecie,</li>
+<li>konsultacje skoncentrowane na odnajdywaniu mocnych stron w sytuacjach zawodowych (poszukiwanie pracy, przygotowanie do rozmów kwalifikacyjnych).</li>
+</ul>
+    </> )
     }
 }
  

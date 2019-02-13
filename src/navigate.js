@@ -7,7 +7,7 @@ const Navigate = () => {
     return ( 
    <>
     <div  className="line"></div>
-    <ul>
+    <ul className="menu">
     <li key="Onas">O nas</li>
     <li key="Cennik">Cennik</li>
     <li key="Oferta">Oferta</li>
