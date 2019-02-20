@@ -1,6 +1,8 @@
 
 
 .tringlesSides{
+    width:370px; 
     border:3px solid red ;
     transform: rotate(45deg);
+    transform: translateY(1);
 }
