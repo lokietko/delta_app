@@ -6,14 +6,24 @@ import "./kontakt.css";
          this.state = {  }
      } 
      
+     
 handleScroll=()=>{
-const tr=document.getElementsByClassName("tringlesSides");
-const win=window;
-console.log(tr,win);
-win.addEventListener("scroll",function(){
-  //  let top=win.srollTop();
-    console.log(win.scrollBy());
-})
+     
+    window.addEventListener("scroll",()=>{
+    const el=document.querySelector(".tringlesSidesRight");
+    const ele=document.querySelector(".tringlesSidesLeft");
+    //const elem=document.querySelector(".tringlesSidesBase");
+        let set=window.pageYOffset/5;
+        console.log(set)
+       
+
+        el.style.transform = `rotate(45deg) translateX(${set}px)`;  
+        ele.style.transform = `rotate(145deg) translateX(${set}px)`;
+        //elem.style.left= `${set}px`;
+
+    })
+
+    
 
 }
 
@@ -22,16 +32,17 @@ win.addEventListener("scroll",function(){
 
 
      render() { 
-         return ( <div>
+         return ( <footer>
          
-         <div className="tringlesSides" data-speed="2"></div>
-         
+         <div className="tringlesSidesRight"></div>
+          <div className="tringlesSidesLeft"></div>
+          <div className="tringlesSidesBase"></div>
          {this.handleScroll()}
          
          
          
          
-         </div> );
+         </footer> );
      }
     }
   
