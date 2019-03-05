@@ -14,14 +14,16 @@ handleScroll=()=>{
     const ele=document.querySelector(".tringlesSidesLeft");
     //const elem=document.querySelector(".tringlesSidesBase");
         let set=window.pageYOffset/5;
+        
         console.log(set)
-       
+     
 
-        el.style.transform = `rotate(45deg) translateX(${set}px)`;  
+        el.style.transform = `rotate(45deg) translateX(${set}px)`; 
+      
         ele.style.transform = `rotate(145deg) translateX(${set}px)`;
-        //elem.style.left= `${set}px`;
+        //elem.style.left= `${set}px`;}
 
-    })
+})
 
     
 

@@ -10,7 +10,7 @@
 
 .menu{
     width: 60%;
-    border: 1px solid red;
+   
     list-style-type: none;
     display: flex;
     justify-content: space-between;
